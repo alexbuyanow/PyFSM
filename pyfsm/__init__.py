@@ -4,8 +4,6 @@
     Final State Machine
 """
 
-__version__ = '0.0.1.dev'
-
 from .entity import StatefulInterface
 from .fsm import FSMFactory, FSMInterface, FSMNotFoundException
 from .guard import GuardInterface, GuardManager
@@ -24,6 +22,8 @@ from .state import (
 )
 from .transition import InvalidTransitionConfig
 
+__version__ = '0.0.1.dev0'
+
 __all__ = [
     'StatefulInterface',
     'FSMInterface',
@@ -40,5 +40,6 @@ __all__ = [
     'IncorrectStateTypeException',
     'IncorrectStateConfigException',
     'StateNotFoundException',
-    'InvalidTransitionConfig'
+    'InvalidTransitionConfig',
+    '__version__'
 ]
