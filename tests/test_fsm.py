@@ -6,7 +6,7 @@
 """
 
 from typing import Any, List
-import unittest
+import unittest2 as unittest
 import mock
 from pyfsm import (
     GuardManager,

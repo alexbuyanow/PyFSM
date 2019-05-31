@@ -5,7 +5,7 @@
 
 """
 
-import unittest
+import unittest2 as unittest
 from parameterized import parameterized
 import mock
 from pyfsm import StatefulInterface, GuardInterface, GuardManager

@@ -5,7 +5,7 @@
 
 """
 
-import unittest
+import unittest2 as unittest
 from pyfsm import (
     State,
     StateInterface,

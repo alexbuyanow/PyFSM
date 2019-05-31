@@ -8,4 +8,5 @@ install:
 script:
   - pylint examples pyfsm tests
   - flake8 .
-  - coverage run --source=slumber setup.py test
+  - python -m unittest2 discover tests
+  - coverage run --source=pyfsm setup.py test
